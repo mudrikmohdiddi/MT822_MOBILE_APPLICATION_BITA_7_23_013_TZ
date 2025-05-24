@@ -7,11 +7,20 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
     <TextView
+        android:id="@+id/myapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:text="MUDRIK MOHD IDDI\n CALCULATOR"/>
+    <TextView
         android:id="@+id/txtResultId"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#cccccc"
         android:textSize="40dp"
+        android:layout_below="@id/myapp"
         android:layout_marginTop="50dp"
 
         android:text="0"
